@@ -69,24 +69,21 @@ public class CalcClassString {
 			scanner = new Scanner(System.in);
 			char operation = scanner.next().charAt(0);
 			
-			System.out.print("Enter the first letter: ");
-			char letter1 = scanner.next().charAt(0);
+			System.out.print("Enter the first number: ");
 			
-			int num1 =0;
-			if(letter1 == 'a') {
-				System.out.print("Add value to this letter: ");
-				num1 = scanner.nextInt();
-			}
+			
+			int num1 = scanner.nextInt();
+			
 			
 			
 //			char num1 = scanner.next(".").charAt(0);
 			System.out.print("Enter the b value: ");
 			char letter2 = scanner.next().charAt(0);
 			
-			int num2 =0;
-			if(letter2 == 'b') {
-				System.out.print("Add value to second letter: ");
-				num2 = scanner.nextInt();
+			int num2 = 0;
+			if (letter2 == 'a') {
+			System.out.print("Add value to b letter: ");
+			num2 = scanner.nextInt();
 			}
 			
 			
