@@ -2,11 +2,11 @@
 
 Calculator
 
-aadd 10 
+a add 10 
 
-badd a 
+b add a 
 
-badd 1 
+b add 1 
 
 print b 
 
